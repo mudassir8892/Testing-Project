@@ -1,0 +1,1 @@
+console.write("welcome to git and github");
