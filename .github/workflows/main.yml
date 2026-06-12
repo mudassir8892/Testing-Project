@@ -4,7 +4,7 @@ name: test 1
     push:
       branches: [ main ]
 
-  job:
+  jobs:
     demo:
       runs-on: ubuntu-latest
 
