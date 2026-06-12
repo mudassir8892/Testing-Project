@@ -1,0 +1,13 @@
+name: test 1
+
+  on:
+    push:
+      branches: [ main ]
+
+  job:
+    demo:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: greetings
+          run: echo "hello from mudassir"
